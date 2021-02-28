@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+html{
+ background: transparent;
+}
+body{
+ background-color:#9EBC36;
+ font-family: 'メイリオ','ヒラギノ角ゴ',sans-serif;
+ letter-spacing: 0.15em;
+ line-height: 160%;
+}
+header{
+background: url('../img/midori.jpg') ;
+border-top: 5px solid #c1bc55;
+border-bottom: 5px solid #c1bc55;
+min-height: 20vh;
+ min-width: 500px;
+}
+nav ul{
+  padding-top: 15px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ list-style-type: none;
+}
+nav li{
+  margin: 0em 2em;
+ height: 5rem;
+ width: 8rem;
+ background:  #fffe8b;
+ border-radius: 20%;
+ position: relative;
+
+ }
+nav li a{
+  display: inline-block;
+ height: 5rem;
+ width:8rem;
+ background: transparent;
+ border-radius: 20%;
+ color: #393939;
+ font-weight: bold;
+ font-size: 18px;
+ line-height: 5rem;
+ text-align: center;
+ transition: 0.4s;
+}
+nav li a:hover{
+ background: rgba(0,0,0,0.2);
+ color: #ffffff;
+}
+main{
+ display: block;
+ width: 700px;
+ margin: 40px auto;
+ background-color: #ffffff;
+ border-left: 5px solid #c1bc55;
+ border-right: 5px solid #c1bc55;
+ padding: 2em;
+}
+em{
+ margin: 30px;
+ color:#656565;
+ border-bottom: dotted 3px #c1bc55;
+}
+main a{
+ background-color:#c1bc55;
+}
+a{
+ text-decoration: none;
+}
+section{
+ margin: 10px 0px;
+}
+h1{
+ font-size: 40px;
+ margin: 20px;
+ padding: 10px;
+ text-align: center;
+ color: #393939;
+ transform: rotate(-2.5deg);
+}
+h2{
+ font-size: 1.2rem;
+ border-bottom: 2px solid #638C0A;
+ border-left: solid 8px #638C0A;
+ padding: 0.5em;
+}
+h2::after{
+ content:"●●●";
+ padding-light: 3px;
+ color: #82C115;
+ font-size: 0.8rem;
+}
+h3{
+ font-size: 17px;
+ color: #696969;
+ margin: 12px;
+}
+p{
+ padding: 10px;
+}
+input,botton,textarea,select{
+ font-family: inherit;
+ font-size: 100%;
+}
+input,botton,select{
+background: #A3C334;
+ border: 2px solid #638C0A;
+}
+botton:hover{
+ background: rgba(0,0,0,0.2);
+ color: #ffffff;
+}
+textarea,input[type="text"] {
+ background: #ffffff;
+}
+
+/**/
+
+.container{
+  text-align: center;
+  margin: 30px auto;
+}
+textarea {
+  width: 700px;
+  box-sizing: border-box;
+  height: 400px;
+  padding: 0.8em;;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+label{
+  font-size: 1.1rem;
+}
+
+
+#textForm{
+  width: 200px;
+  height: 40px;
+  font-size: 1.2rem;
+}
+#button{
+  margin-left: 10px;
+  padding: 5px;
+  background: #9EBC36;
+  border-radius: 5px;
+  width: 70px;
+  height: 40px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px gray;
+
+}
+.text{
+  font-size: 2rem;
+}
+#label {
+  font-weight: bold;
+  font-size: 2.8rem;
+  color: #9EBC36;
+
+}
+.resulttxt{
+  font-size: 1.2rem;
+  padding-top: 20px;
+  font-weight: bold;
+  color: #666;
+}
+#reset{
+  display: inline-block;
+  margin: 30px;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  background: #F8CD3F;
+ line-height: 30px;
+}

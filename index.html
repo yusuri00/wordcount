@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<META NAME="GOOGLEBOT" CONTENT="NOINDEX,NOFOLLOW,NOARCHIVE">
+<META NAME="ROBOTS" CONTENT="NOARCHIVE,NOINDEX,NOFOLLOW">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta http-equiv="cache-control" content="no-cache">
+<meta charset="UTF-8">
+<title>文字数チェッカー</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/midori.css" media="screen">
+</head>
+
+<body>
+<h1>文字数チェッカー<img src="img/header_hana.png" width=60px></h1>
+
+
+<main>
+
+<form class="container" id="form">
+      <label for="textForm">目標文字数: </label>
+      <input type="text" id="textForm">
+      <button id="button">設定する</button><br>
+      <p class="resulttxt"><span id="resulttxt"></span></p>
+  </form>
+  <div class="container">
+    <textarea id="comment" placeholder="文字を入力してください"></textarea>
+    <p class="text"><span id="label"></span>字</p>
+    <em>テキストをクリックすると選択されます</em><br>
+    <input type="button"
+    id="reset" value="リセット" onclick="clearText()" />
+  </div>
+
+
+
+</main>
+<script src="js/main.js"></script>
+</body>
+</html>
